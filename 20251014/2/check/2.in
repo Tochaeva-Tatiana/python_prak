@@ -1,0 +1,7 @@
+:wrap s "[[{}]]".format(s)
+wrap 7
+wrap "A B C"
+:calc x y sin(x) + sqrt(y)
+calc 1 2
+calc pi 5
+quit "{}"
