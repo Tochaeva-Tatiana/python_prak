@@ -1,0 +1,1 @@
+print(*slide(list("QWErty"), 3))
