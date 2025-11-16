@@ -1,0 +1,12 @@
+@objcount
+class Maker:
+    def __init__(self):
+        self.child = MakerChild()
+
+@objcount
+class MakerChild:
+    pass
+
+m = Maker()
+print(Maker.counter)      # 1
+print(MakerChild.counter) # 1

@@ -1,0 +1,11 @@
+@objcount
+class X:
+    pass
+
+x1 = X()
+x2 = X()
+x3 = X()
+print(X.counter)
+
+x2 = x3 = 0
+print(X.counter)

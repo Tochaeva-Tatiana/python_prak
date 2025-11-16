@@ -1,0 +1,7 @@
+w = Vowel()
+print(w.answer)   
+
+w = Vowel(a=1)
+print(w.full)
+w.full = "???"
+print(w.full) 

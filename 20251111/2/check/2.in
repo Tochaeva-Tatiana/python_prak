@@ -1,0 +1,10 @@
+class C:
+    num = Num()
+
+c = C()
+c.num = 10
+print(c.num)
+c.num = "abc"
+print(c.num)
+c.num = 2.7
+print(c.num)  

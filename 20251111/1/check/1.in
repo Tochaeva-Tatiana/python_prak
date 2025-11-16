@@ -1,0 +1,11 @@
+@objcount
+class D:
+    def __init__(self, x):
+        self.x = x
+    def __del__(self):
+        print("bye", self.x)
+
+p, q = D(1), D(2)
+print(D.counter)
+del p
+print(D.counter)
