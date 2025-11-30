@@ -1,0 +1,12 @@
+class Base(metaclass=dump):
+        def base_method(self, x):
+            return x * 2
+    
+class Derived(Base):
+    def derived_method(self, a, b=5):
+        return a + b
+
+obj = Derived()
+result1 = obj.base_method(10)
+result2 = obj.derived_method(3, b=7)
+print(result1, result2)

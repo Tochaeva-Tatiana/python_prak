@@ -1,0 +1,4 @@
+store 5 x
+    ifeq x 5 undefined_label
+out x
+stop

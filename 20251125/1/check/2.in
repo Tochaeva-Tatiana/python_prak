@@ -1,0 +1,7 @@
+class TestClass(metaclass=dump):
+        def mixed(self, a, b: int, c="default", d=None):
+            return f"{a} {b} {c} {d}"
+    
+obj = TestClass()
+result = obj.mixed([1, 2], 100, c="test", d={"key": "value"})
+print(result)

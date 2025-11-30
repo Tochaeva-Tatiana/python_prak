@@ -1,0 +1,2 @@
+mixed: (100,), {'c': 'test'}
+[1, 2] 100 test {'key': 'value'}

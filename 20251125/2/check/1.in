@@ -1,0 +1,13 @@
+store     10 a
+store 5      b
+        
+      add a       b add_result
+sub a b      sub_result
+        mul a b mul_result
+div a b div_result
+        
+out add_result
+out sub_result
+            out mul_result
+out        div_result          
+stop         

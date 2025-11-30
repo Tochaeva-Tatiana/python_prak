@@ -1,0 +1,5 @@
+store 10 a
+store 0 b
+div a b result
+out result
+stop
