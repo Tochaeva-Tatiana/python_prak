@@ -1,0 +1,6 @@
+class B(metaclass=dump):
+    def g(self, a, b=True):
+        return a if b else -a
+
+b = B()
+print(b.g(3.5, False))

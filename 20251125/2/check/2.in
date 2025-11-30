@@ -1,0 +1,3 @@
+store 1 a
+ifeq a 1 nowhere
+out a

@@ -1,0 +1,7 @@
+class C(metaclass=dump):
+    def a(self, x): return x + 1
+    def b(self, y): return y * 2
+
+c = C()
+print(c.a(1))
+print(c.b(3))
