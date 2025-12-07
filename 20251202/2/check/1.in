@@ -1,0 +1,12 @@
+async def test():
+    A = list(range(99, -1, -1))
+    A0 = A[:]
+
+    tasks, B = await mtasks(A)
+    random.shuffle(tasks)
+    await asyncio.gather(*tasks)
+
+    print(A == A0)                 # True
+    print(B == sorted(A))          # True
+
+asyncio.run(test())

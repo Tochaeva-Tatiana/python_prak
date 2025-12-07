@@ -1,0 +1,11 @@
+async def test():
+    A = [2, 1]
+    A0 = A[:]
+
+    tasks, B = await mtasks(A)
+    await asyncio.gather(*tasks)
+
+    print(A == A0)
+    print(B == [1, 2])
+
+asyncio.run(test())
