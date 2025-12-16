@@ -2,7 +2,7 @@
 
 ST_A="Точаева Татьяна"
 ST_B="Стрелкина Ирина"
-TOML_PATH="/path/to/personal.toml"
+TOML_PATH="personal.toml"
 
 hworker $TOML_PATH -c update
 hworker $TOML_PATH -c "show result" > test_data
