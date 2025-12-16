@@ -11,8 +11,8 @@ deliver = [
 directory = "hworker_personal"
 
 [git.users]
-Me = "https://github.com/Tochaeva-Tatiana/python_prak"
-Him = "https://git.cs.msu.ru/s02230257/prac.git"
+"Татьяна Точаева" = "https://github.com/Tochaeva-Tatiana/python_prak"
+"Ирина Стрелкина" = "https://git.cs.msu.ru/s02230257/prac.git"
 
 [imap]
 host = "host"

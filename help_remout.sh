@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # запускать из корневой директории вашего гит-репозитория
-HIM="Ирина Стрелкина" # имя вашего напарника
+HIM="Стрелкина Ирина" # имя вашего напарника
 BASE_DIR=$(pwd)
 find "$BASE_DIR" -type d -name "check" | grep "2025" | while read -r CHECK_DIR; do
     FILE_PATH="$CHECK_DIR/remote"
