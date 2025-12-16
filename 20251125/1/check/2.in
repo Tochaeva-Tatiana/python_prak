@@ -5,3 +5,5 @@ class C(metaclass=dump):
 c = C()
 print(c.a(1))
 print(c.b(3))
+
+

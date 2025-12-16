@@ -2,3 +2,5 @@ store 1 a
 store 0 b
 div a b c
 out c
+
+

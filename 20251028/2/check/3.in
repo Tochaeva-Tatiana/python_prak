@@ -1,3 +1,4 @@
 A = Triangle((0, 0), (4, 0), (0, 3)) 
 S = Triangle((0, 0), (2, 0), (0, 1))
 print(S < A, A < S)
+

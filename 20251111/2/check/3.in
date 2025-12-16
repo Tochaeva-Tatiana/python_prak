@@ -1,6 +1,6 @@
 class C:
     num = Num()
-
 c1 = C()
 c2 = C()
-print(c1.num + c2.num)  
+print(c1.num + c2.num)
+

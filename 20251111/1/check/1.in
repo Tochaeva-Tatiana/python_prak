@@ -9,3 +9,5 @@ p, q = D(1), D(2)
 print(D.counter)
 del p
 print(D.counter)
+
+

@@ -1,2 +1,5 @@
-w = Vowel(u=1, a=5, y=9)
-print(w)
+w = Vowel(a=8)
+print(w.a)
+w.a = 7
+print(w.a)
+

@@ -9,3 +9,6 @@ async def test():
     print(B == [1, 2])
 
 asyncio.run(test())
+
+
+

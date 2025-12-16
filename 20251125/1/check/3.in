@@ -4,3 +4,5 @@ class E(metaclass=dump):
 
 e = E()
 print(e.join("foo", "bar"))
+
+

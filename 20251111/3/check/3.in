@@ -3,8 +3,8 @@ try:
     w.xyz = 10
 except AttributeError:
     print("ok")
-
 w = Vowel(a=1)
 print(w.a)
 w.a = 200
 print(w.a)
+

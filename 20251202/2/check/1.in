@@ -10,3 +10,6 @@ async def test():
     print(B == sorted(A))          # True
 
 asyncio.run(test())
+
+
+
